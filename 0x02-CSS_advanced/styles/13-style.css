@@ -6,9 +6,20 @@ body {
     color: #161616;
 }
 
-a {
+a[href] {
     color: #161616;
     text-decoration: none;
+}
+a:visited {
+	font-style: italic;
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+a:active {
+	background-color: var(--color-light-grey);
 }
 
 .visually-hidden {
