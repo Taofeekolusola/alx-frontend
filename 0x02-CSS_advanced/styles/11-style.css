@@ -1,0 +1,11 @@
+:root {
+	--section-tagline-transform: uppercase;
+	--font-family-title: 'Raleway' 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	--font-weight-bold: 700;
+}
+
+.section-tagline {
+	font-family: var(--font-family-title);
+	transform: var(--section-tagline-transform);
+	font-weight: var(--font-weight-bold);
+}
