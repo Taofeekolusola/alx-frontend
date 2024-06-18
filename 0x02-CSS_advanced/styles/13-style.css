@@ -10,15 +10,15 @@ a[href] {
     color: #161616;
     text-decoration: none;
 }
-a:visited {
+a[href]:visited {
 	font-style: italic;
 }
 
-a:hover {
+a[href]:hover {
 	text-decoration: underline;
 }
 
-a:active {
+a[href]:active {
 	background-color: var(--color-light-grey);
 }
 
@@ -111,4 +111,4 @@ line-height: var(--line-height-base);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
     font-weight: var(--font-weight-bold);
-  }  
+}
