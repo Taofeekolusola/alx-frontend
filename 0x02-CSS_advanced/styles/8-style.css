@@ -4,10 +4,7 @@
 	--line-height-big: 1.8;
 }
 
-body {
-  line-height: var(--line-height-base);
-}
-
 body * {
   min-height: var(--line-height-base);
+  line-height: var(--line-height-base);
 }
