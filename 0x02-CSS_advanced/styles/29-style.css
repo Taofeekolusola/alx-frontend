@@ -132,7 +132,7 @@ a:active {
     --nav-item-letter-spacing: calc(4% * 1rem);
     --nav-item-display: inline-block;
     --nav-item-margin: 0 0 calc(3 * 1rem) 0;
-    --nav-item-link-hover: var(--color-white);
+    --nav-item-link-hover: var(--color-white)
     --section-tagline-margin: 0;
     --button-display: inline-block;
     --button-padding: 1.5rem 3rem;
@@ -347,12 +347,6 @@ line-height: var(--line-height-base);
     background-color: var(--color-light-grey);
 }
 
-.card-services a:hover {
-    color: var(--color-white);
-    background-color: var(--color-primary);
-    text-decoration: none;
-}
-
 nav .nav-link::before {
     content: '';
     position: absolute;
@@ -366,4 +360,10 @@ nav .nav-link::before {
 nav .nav-item:hover .nav-link::before {
     background-color: var(--color-primary);
     width: 100%;
+}
+
+.card-services a:hover {
+    color: var(--color-white);
+    background-color: var(--color-primary);
+    text-decoration: none;
 }
